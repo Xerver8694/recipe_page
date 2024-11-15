@@ -15,7 +15,7 @@ body {
     width: min(100%, 45rem);
     height: min(100%, 75rem);
     margin: auto;
-    padding: 2.5rem 2.5rem;
+    padding: 2.5rem;
     border-radius: 1.25rem;
     background-color: hsl(0, 0%, 100%);
 }
