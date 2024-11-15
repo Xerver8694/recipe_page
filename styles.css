@@ -11,9 +11,19 @@ body {
     background-color: hsl(30, 18%, 87%);
 }
 
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
 .card {
     width: min(100%, 45rem);
-    height: min(100%, 75rem);
+    height: auto;
     margin: auto;
     padding: 2.5rem;
     border-radius: 1.25rem;
@@ -38,6 +48,7 @@ h2 {
 
 p, ul, ol {
     font-family: Outfit;
-    line-height: 1.35rem;
-    font-size: 1.15rem;
+    line-height: 1.85rem;
+    font-size: 1.45rem;
 }
+
