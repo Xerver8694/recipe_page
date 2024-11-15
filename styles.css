@@ -26,3 +26,11 @@ img {
     border-radius: 0.8rem;
     overflow: hidden;
 }
+
+.recipe_name {
+    font-family: Outfit;
+}
+
+h2 {
+    font-family: Young Serif, serif;
+}
