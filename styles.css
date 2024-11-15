@@ -28,9 +28,16 @@ img {
 }
 
 .recipe_name {
-    font-family: Outfit;
+    font-family: Young Serif, serif;
 }
 
 h2 {
     font-family: Young Serif, serif;
+    color: hsl(14, 45%, 36%);
+}
+
+p, ul, ol {
+    font-family: Outfit;
+    line-height: 1.35rem;
+    font-size: 1.15rem;
 }
