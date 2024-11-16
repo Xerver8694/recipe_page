@@ -25,6 +25,7 @@ main {
     width: min(100%, 45rem);
     height: auto;
     margin: auto;
+    margin-bottom: auto;
     padding: 2.5rem;
     border-radius: 1.25rem;
     background-color: hsl(0, 0%, 100%);
