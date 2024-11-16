@@ -6,8 +6,8 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100vh;
-    width: 100vw;
+    height: 100rem;
+    width: 135rem;
     background-color: hsl(30, 18%, 87%);
 }
 
@@ -41,6 +41,10 @@ img {
     font-family: Young Serif, serif;
 }
 
+.ingredients, .time, .instructions {
+    color: hsl(24, 5%, 18%);
+}
+
 h2 {
     font-family: Young Serif, serif;
     color: hsl(14, 45%, 36%);
@@ -52,3 +56,25 @@ p, ul, ol {
     font-size: 1.45rem;
 }
 
+.nutrition {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1.45rem;
+    font-family: Outfit;
+}
+
+.nutrition td {
+    padding: 0.5rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td:first-child {
+    text-align: left;
+}
+
+.nutrition td:last-child {
+    text-align: right;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
